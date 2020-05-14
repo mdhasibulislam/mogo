@@ -1,0 +1,379 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        padding: 30px !important;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar .navbar-nav {
+        background: #444;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    
+    .banner-text {
+    margin-top: 204px;
+}
+
+    .banner-area .banner-text h1 {
+        font-size: 103px;
+        padding-bottom: 19px;
+        line-height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .slider .slider-txt p:before {
+    
+    background: red;
+    top: 114%;
+}
+
+    .slider_area .left_arrow,
+    .right_arrow {
+        display: none !important;
+    }
+    
+    
+/*    ====service=====*/
+    
+    .service-main .ser-main .ser-txt {
+    padding-left: 56px;
+    margin-top: 17px;
+}
+    
+    
+       .service-main .full {
+	margin: 28px 0;
+}
+    
+    
+/*    ====service=====*/
+    
+    
+    .team_social a {
+    width: 53px;
+}
+
+   .footer-text h2 {
+    text-align: center;
+}
+    
+    .footer-text p {
+    text-align: center;
+        color: green;
+}
+    
+    
+    
+    .copyright h5:before{
+        
+    width: 100%;
+    background: black;
+}
+
+    
+    
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+        .navbar {
+        padding: 30px !important;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar .navbar-nav {
+        background: #444;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .navbar ul.navbar-nav li.nav-item {
+    padding: 40px 0px;
+}
+
+/*
+    
+    
+.navigation .navbar {
+	padding: 8px 0px;
+}
+
+.right-icon {
+	position: absolute;
+	top: 8px;
+	right: 60px;
+}
+
+.navigation .navbar .navbar-nav {
+	margin-right: 0px;
+}
+
+.navbar-collapse{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #810303;
+    padding: 5px 10px;
+}
+
+.navigation .navbar .navbar-nav li {
+	margin-right: 0;
+}
+.navigation .navbar .navbar-nav li a {
+	padding: 8px 10px;
+	display: block;
+}
+.navigation .navbar .navbar-nav li .sub-menu {
+	position: relative !important;
+	width: 100% !important;
+	left: 0!important;
+	top: auto !important;
+	opacity: 1 !important;
+	visibility: visible !important;
+	display: none;
+	right: auto;
+	transition: none;
+	transform: translateX(0%);
+	text-align: center;
+}
+.navigation .navbar .navbar-nav li a .sub-nav-toggler {
+	position: absolute;
+	padding: 7px 11px;
+	background: none;
+	border: 0;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	display: block;
+}
+    
+    
+    .navbar ul.navbar-nav li.nav-item {
+	padding: 36px 0px;
+	padding-left: 240px;
+}
+    
+    
+*/
+    
+    
+    
+    
+    
+    .banner-text {
+    margin-top: 150px;
+}
+
+    .banner-area .banner-text h2{
+        font-size: 50px;
+    }
+    .banner-area .banner-text h1 {
+        font-size: 90px;
+        padding-bottom: 19px;
+        line-height: 100px;
+        margin-bottom: 30px;
+    }
+    
+    .banner-text a {
+    margin-top: 100px;
+}
+    
+    .banner-text a:after {
+    top: -143%;
+}
+    
+    
+    
+       .service-main .full {
+	margin: 28px 0;
+}
+
+   
+    .slider_area .left_arrow,
+    .right_arrow {
+        display: none !important;
+    }
+    
+    .slider .slider-txt p:before {
+    background: black;
+	top: 122%;
+    
+}
+    
+    .slider .slider-img img {
+    width: 100%;
+}
+    
+    
+    .slider .slider-txt p {
+    font-size: 16px;
+}
+    
+    
+    
+    
+    
+    .team_social a {
+    width: 53px;
+}
+
+   .footer-text h2 {
+    text-align: center;
+}
+    
+    .footer-text p {
+    text-align: center;
+        color: black;
+}
+  
+
+}
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+    .navbar {
+        padding: 30px !important;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar .navbar-nav {
+        background: #444;
+        text-align:center;
+        margin-top: 25px;
+    }
+    
+    
+    .navbar ul.navbar-nav li.nav-item {
+	padding: 40px 0px;
+}
+    
+    
+    .banner-text {
+    margin-top: 204px;
+}
+    
+    .banner-text a{
+        margin-top: 26px;
+    }
+
+    .banner-area .banner-text h1 {
+        font-size: 55px;
+        padding-bottom: 19px;
+        line-height: 100px;
+        margin-bottom: 30px;
+    }
+    
+    .banner-text h2{
+        font-size: 30px;
+    }
+    
+        
+    .section_title p {
+	font-size: 13px;
+}
+     
+
+    .slider .slider-txt p:before {
+    
+    background: red;
+    top: 127%;
+}
+    
+    .slider .slider-txt p {
+	font-size: 14px;
+}
+
+    .slider_area .left_arrow,
+    .right_arrow {
+        display: none !important;
+    }
+    
+    
+    .footer-gap {
+    margin-top: 92px;
+}
+    
+    
+    .footer-text h4:before {
+    width: 100%;
+  
+}
+    
+    
+    
+/*    ====service=====*/
+    
+    .service-main .ser-main .ser-txt {
+    padding-left: 56px;
+    margin-top: 17px;
+}
+    
+    
+    .service-main .full {
+	margin: 28px 0;
+}
+    
+/*    ====service=====*/
+    
+    
+    .team_social a {
+    width: 46px;
+}
+
+   .footer-text h2 {
+    text-align: center;
+}
+    
+    .footer-text p {
+    text-align: center;
+        color: green;
+}
+    
+    .copyright h5 {
+    font-size: 12px;
+  
+}
+    
+    .copyright h5:before{
+        
+    width: 100%;
+    background: black;
+}
+    
+    
+ .work_text h4 {
+	font-size: 13px;
+}
+    
+    
+    
+
+    
+    
+}
